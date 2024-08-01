@@ -18,11 +18,12 @@ while True:
     #start of connection
     clientsocket, address = serversocket.accept()
 
-    print("received connection from " + str(address))
+    print("received connection from %s " % + str(address))
 
 #message sent after succesful connection
     message = "Hi ! Thanks for connecting to the server" + "\n"
-    clientsocket.send(message)
+
+    clientsocket.send(message.encode('ascii'))
 
     clientsocket.close()
 
