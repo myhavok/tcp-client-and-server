@@ -30,7 +30,12 @@ This project demonstrates a basic implementation of a TCP client and server usin
 1. Open a terminal on your client machine.
 2. Navigate to the directory containing TCPClient.py.
 3. Edit TCPClient.py to set the correct host and port to match the server's IP address and port.
-4. Run the client script:
+4. Run the client script
+5. The client will connect to the server and print : "Hi, Thanks for connecting to the server"
 
-### Acknowledgements
+### Troubleshooting
+1. Connection Refused: Ensure the server is running and listening on the correct port. Verify the IP address and port in the client matches the server.
+2. Address Already in Use: Make sure no other process is using the same port.
+
+  ### Acknowledgements
 Python socket documentation: https://docs.python.org/3/library/socket.html
