@@ -7,9 +7,9 @@ This project demonstrates a basic implementation of a TCP client and server usin
 ([Mac OS Client with Displayed message which shows successful connection](https://github.com/myhavok/tcp-client-and-server/blob/main/images/Screenshot%202024-08-01%20at%2011.30.01%E2%80%AFPM.png)
 
 ### Server Kali Linux VM
-[Kali Linux Server which confirms received connections IP address and port number](https://github.com/myhavok/tcp-client-and-server/blob/main/images/Screenshot%202024-08-01%20at%2011.29.13%E2%80%AFPM.png)## Features
+[Kali Linux Server which confirms received connections IP address and port number](https://github.com/myhavok/tcp-client-and-server/blob/main/images/Screenshot%202024-08-01%20at%2011.29.13%E2%80%AFPM.png)
 
-
+## Features
 - TCP Server that listens for incoming connections.
 - TCP Client that connects to the server and receives a message.
 
