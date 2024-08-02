@@ -4,9 +4,10 @@ import socket
 
 clientsocket =socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-host = socket.gethostname()
+#host = socket.gethostname('localhost')
+host = '10.211.55.5'
 
-port = 378
+port = 2002
 
 clientsocket.connect((host, port))
 
